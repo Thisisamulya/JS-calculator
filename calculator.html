@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JS Calculator</h1>
+        <input id="screen" readonly>
+        <div class="contain">
+            <button id="oper" onclick="clearall()">C</button>
+            <button id="oper" onclick="displayip('(')">(</button>
+            <button id="oper" onclick="displayip(')')">)</button>
+            <button id="oper" onclick="displayip('/')">/</button>
+            <button onclick="displayip('1')">1</button>
+            <button onclick="displayip('2')">2</button>
+            <button onclick="displayip('3')">3</button>
+            <button id="oper" onclick="displayip('%')">%</button>
+            <button onclick="displayip('4')">4</button>
+            <button onclick="displayip('5')">5</button>
+            <button onclick="displayip('6')">6</button>
+            <button id="oper" onclick="displayip('*')">*</button>
+            <button onclick="displayip('7')">7</button>
+            <button onclick="displayip('8')">8</button>
+            <button onclick="displayip('9')">9</button>
+            <button id="oper" onclick="displayip('+')">+</button>
+            <button id="oper" onclick="displayip('-')">-</button>
+            <button onclick="displayip('0')">0</button>
+            <button id="equal"onclick="displayans('=')">=</button>
+        </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
